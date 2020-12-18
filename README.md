@@ -48,7 +48,7 @@
     - [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/) 有线网卡
     - [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor) AMD电源管理
     - [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor) AMD传感器
-    - [AppleMCEReporterDisabler.kext] 用于关闭 AppleMCERReport, AppleMCERReport会导致AMD CPU的内核崩溃
+    - [AppleMCEReporterDisabler.kext](https://github.com/AMD-OSX/AMD_Vanilla/blob/opencore/Extra/AppleMCEReporterDisabler.kext.zip) 用于关闭 AppleMCERReport, AppleMCERReport会导致AMD CPU的内核崩溃
     - AMD-USB-Map.kext USB by [USB Map Guide](https://dortania.github.io/OpenCore-Post-Install/usb/)
     <!-- - [AirportBrcmFixup.kext](https://github.com/acidanthera/AirportBrcmFixup) 无线网卡
     - [BrcmFirmwareData.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
