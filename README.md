@@ -31,7 +31,7 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.3
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.4
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC.aml
@@ -45,13 +45,15 @@
     - [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) 模拟SMC，传感器驱动依赖
     - [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen) 核显&显卡驱动
     - [AppleALC.kext](https://github.com/acidanthera/AppleALC) 声卡驱动
-    - [AirportBrcmFixup.kext](https://github.com/acidanthera/AirportBrcmFixup) 无线网卡
     - [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/) 有线网卡
-    - [BrcmFirmwareData.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
-    - [BrcmPatchRAM2.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
     - [AMDRyzenCPUPowerManagement.kext](https://github.com/trulyspinach/SMCAMDProcessor) AMD电源管理
     - [SMCAMDProcessor.kext](https://github.com/trulyspinach/SMCAMDProcessor) AMD传感器
+    - [AppleMCEReporterDisabler.kext] 用于关闭 AppleMCERReport, AppleMCERReport会导致AMD CPU的内核崩溃
     - AMD-USB-Map.kext USB by [USB Map Guide](https://dortania.github.io/OpenCore-Post-Install/usb/)
+    <!-- - [AirportBrcmFixup.kext](https://github.com/acidanthera/AirportBrcmFixup) 无线网卡
+    - [BrcmFirmwareData.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
+    - [BrcmPatchRAM2.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
+    - [BrcmBluetoothInjector.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙 -->
 
 
 ## 教程
