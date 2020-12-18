@@ -34,8 +34,7 @@
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.4
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
-  - SSDT-EC.aml
-  - SSDT-USBX.aml
+  - SSDT-EC-USBX-AMD.aml
 - drivers
     - HfsPlus.efi
     - OpenCanopy.efi
