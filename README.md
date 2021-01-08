@@ -17,7 +17,7 @@
 ## 兼容情况
 
 - [x] macOS 版本
-    - [x] 11.0.1
+    - [x] 11.1
 - [x] 睡眠/唤醒
 - [x] 有线网卡
 - [x] 无线网卡
@@ -31,7 +31,7 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.4
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.5
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml
