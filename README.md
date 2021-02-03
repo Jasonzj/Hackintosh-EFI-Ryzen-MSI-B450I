@@ -31,12 +31,12 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.5
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.6
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml
 - drivers
-    - HfsPlus.efi
+    - OpenHfsPlus.efi
     - OpenCanopy.efi
     - OpenRuntime.efi
 - Kexts
