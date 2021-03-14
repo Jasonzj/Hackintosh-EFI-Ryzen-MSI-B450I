@@ -17,7 +17,7 @@
 ## 兼容情况
 
 - [x] macOS 版本
-    - [x] 11.1
+    - [x] Big Sur 11.x
 - [x] 睡眠/唤醒
 - [x] 有线网卡
 - [x] 无线网卡
@@ -31,7 +31,7 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.6
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.7
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml
@@ -54,7 +54,8 @@
     - [BrcmPatchRAM2.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙
     - [BrcmBluetoothInjector.kext](https://github.com/acidanthera/BrcmPatchRAM) 蓝牙 -->
 
-
+## docker解决方案
+- [homebrew-docker-virtualbox](https://github.com/sergeycherepanov/homebrew-docker-virtualbox)
 ## 教程
 - [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [黑果小兵-精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
