@@ -31,7 +31,7 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.7
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.6.8
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml
