@@ -1,5 +1,7 @@
 # Ryzen3700x & MSIB450I macOS BigSur OpenCore EFI
 
+Geekbench 5: [CPU](https://browser.geekbench.com/v5/cpu/9190915) | [GPU](https://browser.geekbench.com/v5/compute/3195674)
+
 ## 配置清单
 
 | 名称 | 品牌型号 | 备注 |
@@ -31,7 +33,7 @@
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.7.1
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.7.2
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml

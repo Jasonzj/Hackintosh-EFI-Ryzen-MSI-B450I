@@ -185,11 +185,6 @@
 				<key>built-in</key>
 				<data>AQ==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>BQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
@@ -449,6 +444,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
@@ -1953,13 +1950,15 @@
 				<key>SystemAudioVolume</key>
 				<data>ZA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000 agdpmod=pikera brcmfx-country=#a darkwake=0</string>
+				<string>npci=0x2000 alcid=5 agdpmod=pikera keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>7A682D48 616E733A 323532</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>EnableTRIM</key>
+				<data>AQAAAA==</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 			</dict>
@@ -2080,6 +2079,8 @@
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
