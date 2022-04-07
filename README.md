@@ -33,7 +33,7 @@ Geekbench 5: [CPU](https://browser.geekbench.com/v5/cpu/9190915) | [GPU](https:/
 
 ## EFI
 
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.7.2
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 0.7.9
 - CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - ACPI
   - SSDT-EC-USBX-AMD.aml
